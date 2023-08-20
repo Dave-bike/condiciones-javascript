@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ejercicio 1 */
+
+figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+.image {
+    width: 200px;
+    height: 400px;
+}
+
+.image-border {
+    border: solid red 2px;
+}
+
+/*ejercicio 2 */
+
+.image-container{
+    display: flex;
+    gap: 0 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.sticker {
+    width: 200px;
+    height: 200px;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.button-verify {
+    width: 200px;
+}
+
+/* ejercicio 3 */
+
+.password-container {
+    width: 20vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: solid black 1px;
+    background-color: rgb(224, 224, 224);
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio2</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <p>Puedes llevar hasta 10 stickers en total.</p>
+        <div class="image-container">
+          <div class="card">
+            <img class="sticker" src="/assets/img/ducati.jpg" alt="ducati" />
+            <input class="ducati" type="number" />
+          </div>
+          <div class="card">
+            <img
+              class="sticker"
+              src="/assets/img/duke-390.jpg"
+              alt="duke-390"
+            />
+            <input class="duke-390" type="number" />
+          </div>
+          <div class="card">
+            <img
+              class="sticker"
+              src="/assets/img/duke-1290.jpg"
+              alt="duke-1290"
+            />
+            <input class="duke-1290" type="number" />
+          </div>
+        </div>
+        <p id="message"></p>
+        <button class="button-verify" onclick="calcular()">Verificar</button>
+      </section>
+    </main>
+    <script src="/assets/js/ejercicio2.js"></script>
+  </body>
+</html>
